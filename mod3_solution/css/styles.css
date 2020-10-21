@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 16px;
     color: #fff;
@@ -34,23 +38,51 @@ body {
     font-size: 1.2em;
     text-align: center;
     margin-top: 15px;
+    color: blanchedalmond;
+}
+
+#nav-list a:hover {
+    background-color: blanchedalmond;
+    text-decoration: none;
+}
+
+#nav-list a {
+    color: black;
 }
 
 h2 {
     color: #19caf6;
     text-transform: uppercase;
     margin-bottom: 30px;
+    margin-top: 5px;
 }
 
-p {
+#chicken-box {
     background-color: rgb(255, 208, 0);
-    border-style: solid;
     color: black;
-    text-align: center;
-    padding: 15px;
-    margin-left: 50px;
-    border-width: 10px;
-    border-color: blanchedalmond;
+    padding: 10px;
+}
+
+#beef-box {
+    background-color: rgb(255, 123, 0);
+    color: black;
+    padding: 10px;
+}
+
+#sushi-box {
+    background-color: rgb(241, 93, 255);
+    color: black;
+    padding: 10px;
+}
+
+.food-box {
+    border: solid 1px blanchedalmond;
+    margin-bottom: 15px;
+
+}
+
+.container {
+    width: 100%;
 }
 
 .container-fluid {

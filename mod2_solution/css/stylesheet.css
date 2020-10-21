@@ -38,13 +38,12 @@
     background-color: rgb(212, 80, 107);
 }
 p {
-    margin: 15px;
+    
     padding: 10px;
     border: 1px solid black;
     background-color: cornflowerblue;
     height: 150px;
-    margin-right: 10px;
-    margin-left: 10px;
+
     color: black;
     position: relative;
     overflow: hidden;
